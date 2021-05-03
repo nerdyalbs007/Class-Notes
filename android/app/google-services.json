@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "360970436633",
+    "firebase_url": "https://classnotes-27610.firebaseio.com",
+    "project_id": "classnotes-27610",
+    "storage_bucket": "classnotes-27610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360970436633:android:1f6546ee460444c954ea88",
+        "android_client_info": {
+          "package_name": "com.classnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360970436633-hfk7l44jv4fgj055v7ns36rra8kulsue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsU6DCqdoI2ZiIyFXZJBG3isfyNmPX8V8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360970436633-hfk7l44jv4fgj055v7ns36rra8kulsue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360970436633:android:83617f1be93f130054ea88",
+        "android_client_info": {
+          "package_name": "com.reactnativefirebaseloginscreenmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360970436633-hfk7l44jv4fgj055v7ns36rra8kulsue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsU6DCqdoI2ZiIyFXZJBG3isfyNmPX8V8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360970436633-hfk7l44jv4fgj055v7ns36rra8kulsue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

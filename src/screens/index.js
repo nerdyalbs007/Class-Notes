@@ -1,0 +1,17 @@
+export { default as HomeScreen } from './HomeScreen';
+export { default as LoginScreen } from './LoginScreen';
+export { default as RegisterScreen } from './RegisterScreen';
+export { default as ForgotPasswordScreen } from './ForgotPasswordScreen';
+export { default as Dashboard } from './Dashboard';
+export { default as AuthLoadingScreen } from './AuthLoadingScreen';
+export { default as IndividualSubject } from './IndividualSubject';
+export { default as TeacherLogin } from './TeacherLogin';
+export { default as TeacherDashboard } from './TeacherDashboard';
+export { default as IndividualYear } from './IndividualYear';
+export { default as AllFiles } from './AllFiles';
+export { default as AllFiles1 } from './AllFiles1';
+export { default as AllFilesImg } from './AllFilesImg';
+export { default as TeacherUpload } from './TeacherUpload';
+export { default as AllFilesHelper } from './AllFilesHelper';
+export { default as AwsScreen } from './AwsScreen';
+export { default as VideoCall } from './VideoCall';
