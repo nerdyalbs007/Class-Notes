@@ -18,7 +18,10 @@ import {
   AllFilesImg,
   TeacherUpload,
   AwsScreen,
-  VideoCall
+  VideoCall,
+  VideoCallRegister,
+  VideoCallStart,
+  VideoCallTest,
 } from "./screens";
 
 const Router = createStackNavigator(
@@ -39,7 +42,10 @@ const Router = createStackNavigator(
     AllFilesHelper,
     TeacherUpload,
     AwsScreen,
-    VideoCall
+    VideoCall,
+    VideoCallRegister,
+    VideoCallStart,
+    VideoCallTest,
   },
   {
     initialRouteName: "AuthLoadingScreen",

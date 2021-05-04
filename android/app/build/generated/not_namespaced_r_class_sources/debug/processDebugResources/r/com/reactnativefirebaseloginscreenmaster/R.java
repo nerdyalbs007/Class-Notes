@@ -2765,14 +2765,37 @@ public final class R {
      */
     public static final int ttcIndex=0x7f02012b;
     /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int tviMirror=0x7f02012c;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int tviOverlaySurface=0x7f02012d;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>balanced</td><td>2</td><td></td></tr>
+     * <tr><td>fill</td><td>1</td><td></td></tr>
+     * <tr><td>fit</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int tviScaleType=0x7f02012e;
+    /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int viewAspectRatio=0x7f02012c;
+    public static final int viewAspectRatio=0x7f02012f;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int viewInflaterClass=0x7f02012d;
+    public static final int viewInflaterClass=0x7f020130;
     /**
      * Voice button icon
      * <p>May be a reference to another resource, in the form
@@ -2780,14 +2803,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f02012e;
+    public static final int voiceIcon=0x7f020131;
     /**
      * Flag indicating whether this window should have an Action Bar
      * in place of the usual title bar.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f02012f;
+    public static final int windowActionBar=0x7f020132;
     /**
      * Flag indicating whether this window's Action Bar should overlay
      * application content. Does nothing if the window would not
@@ -2795,14 +2818,14 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f020130;
+    public static final int windowActionBarOverlay=0x7f020133;
     /**
      * Flag indicating whether action modes should overlay window content
      * when there is not reserved space for their UI (such as an Action Bar).
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f020131;
+    public static final int windowActionModeOverlay=0x7f020134;
     /**
      * A fixed height for the window along the major axis of the screen,
      * that is, when in portrait. Can be either an absolute dimension
@@ -2817,7 +2840,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f020132;
+    public static final int windowFixedHeightMajor=0x7f020135;
     /**
      * A fixed height for the window along the minor axis of the screen,
      * that is, when in landscape. Can be either an absolute dimension
@@ -2832,7 +2855,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f020133;
+    public static final int windowFixedHeightMinor=0x7f020136;
     /**
      * A fixed width for the window along the major axis of the screen,
      * that is, when in landscape. Can be either an absolute dimension
@@ -2847,7 +2870,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f020134;
+    public static final int windowFixedWidthMajor=0x7f020137;
     /**
      * A fixed width for the window along the minor axis of the screen,
      * that is, when in portrait. Can be either an absolute dimension
@@ -2862,7 +2885,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f020135;
+    public static final int windowFixedWidthMinor=0x7f020138;
     /**
      * The minimum width the window is allowed to be, along the major
      * axis of the screen.  That is, when in landscape.  Can be either
@@ -2878,7 +2901,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f020136;
+    public static final int windowMinWidthMajor=0x7f020139;
     /**
      * The minimum width the window is allowed to be, along the minor
      * axis of the screen.  That is, when in portrait.  Can be either
@@ -2894,13 +2917,13 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f020137;
+    public static final int windowMinWidthMinor=0x7f02013a;
     /**
      * Flag indicating whether there should be no title on this window.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f020138;
+    public static final int windowNoTitle=0x7f02013b;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f030000;
@@ -3295,157 +3318,159 @@ public final class R {
     public static final int always=0x7f070021;
     public static final int async=0x7f070022;
     public static final int auto=0x7f070023;
-    public static final int beginning=0x7f070024;
-    public static final int blocking=0x7f070025;
-    public static final int bottom=0x7f070026;
-    public static final int browser_actions_header_text=0x7f070027;
-    public static final int browser_actions_menu_item_icon=0x7f070028;
-    public static final int browser_actions_menu_item_text=0x7f070029;
-    public static final int browser_actions_menu_items=0x7f07002a;
-    public static final int browser_actions_menu_view=0x7f07002b;
-    public static final int buttonPanel=0x7f07002c;
-    public static final int cancel_action=0x7f07002d;
-    public static final int catalyst_redbox_title=0x7f07002e;
-    public static final int center=0x7f07002f;
-    public static final int centerCrop=0x7f070030;
-    public static final int centerInside=0x7f070031;
-    public static final int center_horizontal=0x7f070032;
-    public static final int center_vertical=0x7f070033;
-    public static final int checkbox=0x7f070034;
-    public static final int chronometer=0x7f070035;
-    public static final int clip_horizontal=0x7f070036;
-    public static final int clip_vertical=0x7f070037;
-    public static final int collapseActionView=0x7f070038;
-    public static final int content=0x7f070039;
-    public static final int contentPanel=0x7f07003a;
-    public static final int custom=0x7f07003b;
-    public static final int customPanel=0x7f07003c;
-    public static final int dark=0x7f07003d;
-    public static final int decor_content_parent=0x7f07003e;
-    public static final int default_activity_button=0x7f07003f;
-    public static final int disableHome=0x7f070040;
-    public static final int edit_query=0x7f070041;
-    public static final int end=0x7f070042;
-    public static final int end_padder=0x7f070043;
-    public static final int expand_activities_button=0x7f070044;
-    public static final int expanded_menu=0x7f070045;
-    public static final int fill=0x7f070046;
-    public static final int fill_horizontal=0x7f070047;
-    public static final int fill_vertical=0x7f070048;
-    public static final int fitBottomStart=0x7f070049;
-    public static final int fitCenter=0x7f07004a;
-    public static final int fitEnd=0x7f07004b;
-    public static final int fitStart=0x7f07004c;
-    public static final int fitXY=0x7f07004d;
-    public static final int focusCrop=0x7f07004e;
-    public static final int forever=0x7f07004f;
-    public static final int fps_text=0x7f070050;
-    public static final int ghost_view=0x7f070051;
-    public static final int ghost_view_holder=0x7f070052;
-    public static final int glide_custom_view_target_tag=0x7f070053;
-    public static final int group_divider=0x7f070054;
-    public static final int home=0x7f070055;
-    public static final int homeAsUp=0x7f070056;
-    public static final int icon=0x7f070057;
-    public static final int icon_group=0x7f070058;
-    public static final int icon_only=0x7f070059;
-    public static final int ifRoom=0x7f07005a;
-    public static final int image=0x7f07005b;
-    public static final int info=0x7f07005c;
-    public static final int italic=0x7f07005d;
-    public static final int left=0x7f07005e;
-    public static final int light=0x7f07005f;
-    public static final int line1=0x7f070060;
-    public static final int line3=0x7f070061;
-    public static final int listMode=0x7f070062;
-    public static final int list_item=0x7f070063;
-    public static final int media_actions=0x7f070064;
-    public static final int message=0x7f070065;
-    public static final int middle=0x7f070066;
-    public static final int multiply=0x7f070067;
-    public static final int never=0x7f070068;
-    public static final int none=0x7f070069;
-    public static final int normal=0x7f07006a;
-    public static final int notification_background=0x7f07006b;
-    public static final int notification_main_column=0x7f07006c;
-    public static final int notification_main_column_container=0x7f07006d;
-    public static final int parentPanel=0x7f07006e;
-    public static final int parent_matrix=0x7f07006f;
-    public static final int progress_circular=0x7f070070;
-    public static final int progress_horizontal=0x7f070071;
-    public static final int radio=0x7f070072;
-    public static final int react_test_id=0x7f070073;
-    public static final int right=0x7f070074;
-    public static final int right_icon=0x7f070075;
-    public static final int right_side=0x7f070076;
-    public static final int rn_frame_file=0x7f070077;
-    public static final int rn_frame_method=0x7f070078;
-    public static final int rn_redbox_copy_button=0x7f070079;
-    public static final int rn_redbox_dismiss_button=0x7f07007a;
-    public static final int rn_redbox_line_separator=0x7f07007b;
-    public static final int rn_redbox_loading_indicator=0x7f07007c;
-    public static final int rn_redbox_reload_button=0x7f07007d;
-    public static final int rn_redbox_report_button=0x7f07007e;
-    public static final int rn_redbox_report_label=0x7f07007f;
-    public static final int rn_redbox_stack=0x7f070080;
-    public static final int save_non_transition_alpha=0x7f070081;
-    public static final int save_overlay_view=0x7f070082;
-    public static final int screen=0x7f070083;
-    public static final int scrollIndicatorDown=0x7f070084;
-    public static final int scrollIndicatorUp=0x7f070085;
-    public static final int scrollView=0x7f070086;
-    public static final int search_badge=0x7f070087;
-    public static final int search_bar=0x7f070088;
-    public static final int search_button=0x7f070089;
-    public static final int search_close_btn=0x7f07008a;
-    public static final int search_edit_frame=0x7f07008b;
-    public static final int search_go_btn=0x7f07008c;
-    public static final int search_mag_icon=0x7f07008d;
-    public static final int search_plate=0x7f07008e;
-    public static final int search_src_text=0x7f07008f;
-    public static final int search_voice_btn=0x7f070090;
-    public static final int select_dialog_listview=0x7f070091;
-    public static final int shortcut=0x7f070092;
-    public static final int showCustom=0x7f070093;
-    public static final int showHome=0x7f070094;
-    public static final int showTitle=0x7f070095;
-    public static final int spacer=0x7f070096;
-    public static final int split_action_bar=0x7f070097;
-    public static final int src_atop=0x7f070098;
-    public static final int src_in=0x7f070099;
-    public static final int src_over=0x7f07009a;
-    public static final int standard=0x7f07009b;
-    public static final int start=0x7f07009c;
-    public static final int status_bar_latest_event_content=0x7f07009d;
-    public static final int submenuarrow=0x7f07009e;
-    public static final int submit_area=0x7f07009f;
-    public static final int tabMode=0x7f0700a0;
-    public static final int tag_transition_group=0x7f0700a1;
-    public static final int tag_unhandled_key_event_manager=0x7f0700a2;
-    public static final int tag_unhandled_key_listeners=0x7f0700a3;
-    public static final int text=0x7f0700a4;
-    public static final int text2=0x7f0700a5;
-    public static final int textSpacerNoButtons=0x7f0700a6;
-    public static final int textSpacerNoTitle=0x7f0700a7;
-    public static final int time=0x7f0700a8;
-    public static final int title=0x7f0700a9;
-    public static final int titleDividerNoCustom=0x7f0700aa;
-    public static final int title_template=0x7f0700ab;
-    public static final int top=0x7f0700ac;
-    public static final int topPanel=0x7f0700ad;
-    public static final int transition_current_scene=0x7f0700ae;
-    public static final int transition_layout_save=0x7f0700af;
-    public static final int transition_position=0x7f0700b0;
-    public static final int transition_scene_layoutid_cache=0x7f0700b1;
-    public static final int transition_transform=0x7f0700b2;
-    public static final int uniform=0x7f0700b3;
-    public static final int up=0x7f0700b4;
-    public static final int useLogo=0x7f0700b5;
-    public static final int view_tag_instance_handle=0x7f0700b6;
-    public static final int view_tag_native_id=0x7f0700b7;
-    public static final int wide=0x7f0700b8;
-    public static final int withText=0x7f0700b9;
-    public static final int wrap_content=0x7f0700ba;
+    public static final int balanced=0x7f070024;
+    public static final int beginning=0x7f070025;
+    public static final int blocking=0x7f070026;
+    public static final int bottom=0x7f070027;
+    public static final int browser_actions_header_text=0x7f070028;
+    public static final int browser_actions_menu_item_icon=0x7f070029;
+    public static final int browser_actions_menu_item_text=0x7f07002a;
+    public static final int browser_actions_menu_items=0x7f07002b;
+    public static final int browser_actions_menu_view=0x7f07002c;
+    public static final int buttonPanel=0x7f07002d;
+    public static final int cancel_action=0x7f07002e;
+    public static final int catalyst_redbox_title=0x7f07002f;
+    public static final int center=0x7f070030;
+    public static final int centerCrop=0x7f070031;
+    public static final int centerInside=0x7f070032;
+    public static final int center_horizontal=0x7f070033;
+    public static final int center_vertical=0x7f070034;
+    public static final int checkbox=0x7f070035;
+    public static final int chronometer=0x7f070036;
+    public static final int clip_horizontal=0x7f070037;
+    public static final int clip_vertical=0x7f070038;
+    public static final int collapseActionView=0x7f070039;
+    public static final int content=0x7f07003a;
+    public static final int contentPanel=0x7f07003b;
+    public static final int custom=0x7f07003c;
+    public static final int customPanel=0x7f07003d;
+    public static final int dark=0x7f07003e;
+    public static final int decor_content_parent=0x7f07003f;
+    public static final int default_activity_button=0x7f070040;
+    public static final int disableHome=0x7f070041;
+    public static final int edit_query=0x7f070042;
+    public static final int end=0x7f070043;
+    public static final int end_padder=0x7f070044;
+    public static final int expand_activities_button=0x7f070045;
+    public static final int expanded_menu=0x7f070046;
+    public static final int fill=0x7f070047;
+    public static final int fill_horizontal=0x7f070048;
+    public static final int fill_vertical=0x7f070049;
+    public static final int fit=0x7f07004a;
+    public static final int fitBottomStart=0x7f07004b;
+    public static final int fitCenter=0x7f07004c;
+    public static final int fitEnd=0x7f07004d;
+    public static final int fitStart=0x7f07004e;
+    public static final int fitXY=0x7f07004f;
+    public static final int focusCrop=0x7f070050;
+    public static final int forever=0x7f070051;
+    public static final int fps_text=0x7f070052;
+    public static final int ghost_view=0x7f070053;
+    public static final int ghost_view_holder=0x7f070054;
+    public static final int glide_custom_view_target_tag=0x7f070055;
+    public static final int group_divider=0x7f070056;
+    public static final int home=0x7f070057;
+    public static final int homeAsUp=0x7f070058;
+    public static final int icon=0x7f070059;
+    public static final int icon_group=0x7f07005a;
+    public static final int icon_only=0x7f07005b;
+    public static final int ifRoom=0x7f07005c;
+    public static final int image=0x7f07005d;
+    public static final int info=0x7f07005e;
+    public static final int italic=0x7f07005f;
+    public static final int left=0x7f070060;
+    public static final int light=0x7f070061;
+    public static final int line1=0x7f070062;
+    public static final int line3=0x7f070063;
+    public static final int listMode=0x7f070064;
+    public static final int list_item=0x7f070065;
+    public static final int media_actions=0x7f070066;
+    public static final int message=0x7f070067;
+    public static final int middle=0x7f070068;
+    public static final int multiply=0x7f070069;
+    public static final int never=0x7f07006a;
+    public static final int none=0x7f07006b;
+    public static final int normal=0x7f07006c;
+    public static final int notification_background=0x7f07006d;
+    public static final int notification_main_column=0x7f07006e;
+    public static final int notification_main_column_container=0x7f07006f;
+    public static final int parentPanel=0x7f070070;
+    public static final int parent_matrix=0x7f070071;
+    public static final int progress_circular=0x7f070072;
+    public static final int progress_horizontal=0x7f070073;
+    public static final int radio=0x7f070074;
+    public static final int react_test_id=0x7f070075;
+    public static final int right=0x7f070076;
+    public static final int right_icon=0x7f070077;
+    public static final int right_side=0x7f070078;
+    public static final int rn_frame_file=0x7f070079;
+    public static final int rn_frame_method=0x7f07007a;
+    public static final int rn_redbox_copy_button=0x7f07007b;
+    public static final int rn_redbox_dismiss_button=0x7f07007c;
+    public static final int rn_redbox_line_separator=0x7f07007d;
+    public static final int rn_redbox_loading_indicator=0x7f07007e;
+    public static final int rn_redbox_reload_button=0x7f07007f;
+    public static final int rn_redbox_report_button=0x7f070080;
+    public static final int rn_redbox_report_label=0x7f070081;
+    public static final int rn_redbox_stack=0x7f070082;
+    public static final int save_non_transition_alpha=0x7f070083;
+    public static final int save_overlay_view=0x7f070084;
+    public static final int screen=0x7f070085;
+    public static final int scrollIndicatorDown=0x7f070086;
+    public static final int scrollIndicatorUp=0x7f070087;
+    public static final int scrollView=0x7f070088;
+    public static final int search_badge=0x7f070089;
+    public static final int search_bar=0x7f07008a;
+    public static final int search_button=0x7f07008b;
+    public static final int search_close_btn=0x7f07008c;
+    public static final int search_edit_frame=0x7f07008d;
+    public static final int search_go_btn=0x7f07008e;
+    public static final int search_mag_icon=0x7f07008f;
+    public static final int search_plate=0x7f070090;
+    public static final int search_src_text=0x7f070091;
+    public static final int search_voice_btn=0x7f070092;
+    public static final int select_dialog_listview=0x7f070093;
+    public static final int shortcut=0x7f070094;
+    public static final int showCustom=0x7f070095;
+    public static final int showHome=0x7f070096;
+    public static final int showTitle=0x7f070097;
+    public static final int spacer=0x7f070098;
+    public static final int split_action_bar=0x7f070099;
+    public static final int src_atop=0x7f07009a;
+    public static final int src_in=0x7f07009b;
+    public static final int src_over=0x7f07009c;
+    public static final int standard=0x7f07009d;
+    public static final int start=0x7f07009e;
+    public static final int status_bar_latest_event_content=0x7f07009f;
+    public static final int submenuarrow=0x7f0700a0;
+    public static final int submit_area=0x7f0700a1;
+    public static final int tabMode=0x7f0700a2;
+    public static final int tag_transition_group=0x7f0700a3;
+    public static final int tag_unhandled_key_event_manager=0x7f0700a4;
+    public static final int tag_unhandled_key_listeners=0x7f0700a5;
+    public static final int text=0x7f0700a6;
+    public static final int text2=0x7f0700a7;
+    public static final int textSpacerNoButtons=0x7f0700a8;
+    public static final int textSpacerNoTitle=0x7f0700a9;
+    public static final int time=0x7f0700aa;
+    public static final int title=0x7f0700ab;
+    public static final int titleDividerNoCustom=0x7f0700ac;
+    public static final int title_template=0x7f0700ad;
+    public static final int top=0x7f0700ae;
+    public static final int topPanel=0x7f0700af;
+    public static final int transition_current_scene=0x7f0700b0;
+    public static final int transition_layout_save=0x7f0700b1;
+    public static final int transition_position=0x7f0700b2;
+    public static final int transition_scene_layoutid_cache=0x7f0700b3;
+    public static final int transition_transform=0x7f0700b4;
+    public static final int uniform=0x7f0700b5;
+    public static final int up=0x7f0700b6;
+    public static final int useLogo=0x7f0700b7;
+    public static final int view_tag_instance_handle=0x7f0700b8;
+    public static final int view_tag_native_id=0x7f0700b9;
+    public static final int wide=0x7f0700ba;
+    public static final int withText=0x7f0700bb;
+    public static final int wrap_content=0x7f0700bc;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -5841,10 +5866,10 @@ public final class R {
       0x7f020105, 0x7f020106, 0x7f020107, 0x7f020108, 
       0x7f020109, 0x7f02010a, 0x7f02010b, 0x7f02010c, 
       0x7f02010d, 0x7f02010e, 0x7f020123, 0x7f020124, 
-      0x7f020125, 0x7f020126, 0x7f02012d, 0x7f02012f, 
-      0x7f020130, 0x7f020131, 0x7f020132, 0x7f020133, 
-      0x7f020134, 0x7f020135, 0x7f020136, 0x7f020137, 
-      0x7f020138
+      0x7f020125, 0x7f020126, 0x7f020130, 0x7f020132, 
+      0x7f020133, 0x7f020134, 0x7f020135, 0x7f020136, 
+      0x7f020137, 0x7f020138, 0x7f020139, 0x7f02013a, 
+      0x7f02013b
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -8367,7 +8392,7 @@ public final class R {
       0x7f0200d6, 0x7f0200d7, 0x7f0200d8, 0x7f0200d9, 
       0x7f0200da, 0x7f0200db, 0x7f0200dc, 0x7f0200dd, 
       0x7f0200de, 0x7f0200df, 0x7f0200e0, 0x7f0200e1, 
-      0x7f02012c
+      0x7f02012f
     };
     /**
      * <p>This symbol is the offset where the {@link com.reactnativefirebaseloginscreenmaster.R.attr#actualImageScaleType}
@@ -10304,7 +10329,7 @@ public final class R {
       0x7f02004c, 0x7f02005c, 0x7f020067, 0x7f020089, 
       0x7f020091, 0x7f02009b, 0x7f0200cc, 0x7f0200cd, 
       0x7f0200e7, 0x7f0200e8, 0x7f0200fa, 0x7f0200ff, 
-      0x7f02012e
+      0x7f020131
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -10739,7 +10764,7 @@ public final class R {
       0x7f0200d4, 0x7f0200d5, 0x7f0200d6, 0x7f0200d7, 
       0x7f0200d8, 0x7f0200d9, 0x7f0200da, 0x7f0200db, 
       0x7f0200dc, 0x7f0200dd, 0x7f0200de, 0x7f0200df, 
-      0x7f0200e0, 0x7f0200e1, 0x7f02012c
+      0x7f0200e0, 0x7f0200e1, 0x7f02012f
     };
     /**
      * <p>This symbol is the offset where the {@link com.reactnativefirebaseloginscreenmaster.R.attr#actualImageResource}
@@ -12336,6 +12361,106 @@ public final class R {
      * @attr name com.reactnativefirebaseloginscreenmaster:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
+    /**
+     * Attributes that can be used with a VideoTextureView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #VideoTextureView_tviMirror com.reactnativefirebaseloginscreenmaster:tviMirror}</code></td><td></td></tr>
+     * <tr><td><code>{@link #VideoTextureView_tviScaleType com.reactnativefirebaseloginscreenmaster:tviScaleType}</code></td><td></td></tr>
+     * </table>
+     * @see #VideoTextureView_tviMirror
+     * @see #VideoTextureView_tviScaleType
+     */
+    public static final int[] VideoTextureView={
+      0x7f02012c, 0x7f02012e
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.reactnativefirebaseloginscreenmaster.R.attr#tviMirror}
+     * attribute's value can be found in the {@link #VideoTextureView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.reactnativefirebaseloginscreenmaster:tviMirror
+     */
+    public static final int VideoTextureView_tviMirror=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.reactnativefirebaseloginscreenmaster.R.attr#tviScaleType}
+     * attribute's value can be found in the {@link #VideoTextureView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>balanced</td><td>2</td><td></td></tr>
+     * <tr><td>fill</td><td>1</td><td></td></tr>
+     * <tr><td>fit</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.reactnativefirebaseloginscreenmaster:tviScaleType
+     */
+    public static final int VideoTextureView_tviScaleType=1;
+    /**
+     * Attributes that can be used with a VideoView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #VideoView_tviMirror com.reactnativefirebaseloginscreenmaster:tviMirror}</code></td><td></td></tr>
+     * <tr><td><code>{@link #VideoView_tviOverlaySurface com.reactnativefirebaseloginscreenmaster:tviOverlaySurface}</code></td><td></td></tr>
+     * <tr><td><code>{@link #VideoView_tviScaleType com.reactnativefirebaseloginscreenmaster:tviScaleType}</code></td><td></td></tr>
+     * </table>
+     * @see #VideoView_tviMirror
+     * @see #VideoView_tviOverlaySurface
+     * @see #VideoView_tviScaleType
+     */
+    public static final int[] VideoView={
+      0x7f02012c, 0x7f02012d, 0x7f02012e
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.reactnativefirebaseloginscreenmaster.R.attr#tviMirror}
+     * attribute's value can be found in the {@link #VideoView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.reactnativefirebaseloginscreenmaster:tviMirror
+     */
+    public static final int VideoView_tviMirror=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.reactnativefirebaseloginscreenmaster.R.attr#tviOverlaySurface}
+     * attribute's value can be found in the {@link #VideoView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.reactnativefirebaseloginscreenmaster:tviOverlaySurface
+     */
+    public static final int VideoView_tviOverlaySurface=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.reactnativefirebaseloginscreenmaster.R.attr#tviScaleType}
+     * attribute's value can be found in the {@link #VideoView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>balanced</td><td>2</td><td></td></tr>
+     * <tr><td>fill</td><td>1</td><td></td></tr>
+     * <tr><td>fit</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.reactnativefirebaseloginscreenmaster:tviScaleType
+     */
+    public static final int VideoView_tviScaleType=2;
     /**
      * Attributes that can be used with a View.
      * <p>Includes the following attributes:</p>

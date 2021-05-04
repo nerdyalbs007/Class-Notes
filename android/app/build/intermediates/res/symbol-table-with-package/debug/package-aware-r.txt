@@ -317,6 +317,9 @@ attr track
 attr trackTint
 attr trackTintMode
 attr ttcIndex
+attr tviMirror
+attr tviOverlaySurface
+attr tviScaleType
 attr viewAspectRatio
 attr viewInflaterClass
 attr voiceIcon
@@ -714,6 +717,7 @@ id all
 id always
 id async
 id auto
+id balanced
 id beginning
 id blocking
 id bottom
@@ -751,6 +755,7 @@ id expanded_menu
 id fill
 id fill_horizontal
 id fill_vertical
+id fit
 id fitBottomStart
 id fitCenter
 id fitEnd
@@ -1445,6 +1450,8 @@ styleable StateListDrawableItem android_drawable
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable TextAppearance android_textSize android_typeface android_textStyle android_textColor android_textColorHint android_textColorLink android_shadowColor android_shadowDx android_shadowDy android_shadowRadius android_fontFamily fontFamily textAllCaps
 styleable Toolbar android_gravity android_minHeight buttonGravity collapseContentDescription collapseIcon contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation logo logoDescription maxButtonHeight navigationContentDescription navigationIcon popupTheme subtitle subtitleTextAppearance subtitleTextColor title titleMargin titleMarginBottom titleMarginEnd titleMarginStart titleMarginTop titleMargins titleTextAppearance titleTextColor
+styleable VideoTextureView tviMirror tviScaleType
+styleable VideoView tviMirror tviOverlaySurface tviScaleType
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId

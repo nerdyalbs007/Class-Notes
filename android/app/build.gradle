@@ -152,6 +152,7 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     implementation "com.facebook.react:react-native:+"  // From node_modules
+    implementation project(':react-native-twilio-video-webrtc')
     addUnimodulesDependencies()
     compile project(':react-native-audio-recorder-player')
 }

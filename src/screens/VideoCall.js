@@ -154,6 +154,34 @@ const VideoCall = ({ navigation }) => {
       <Button mode="contained" onPress={onStopRecord}>
       Stop Audio
       </Button>
+
+	  <Button mode="contained" onPress={() => {
+                    fetch(`https://55c53f100486.ngrok.io/getToken?userName=MCC`)
+                        .then((response) => {
+                        if (response.ok) {
+                            response.text().then((jwt) => {
+                            // setProps({...props, token: jwt});
+                            navigation.navigate('VideoCallTest',{
+                                jwt:jwt
+                            });
+                            return true;
+                            });
+                        } else {
+                            response.text().then((error) => {
+                                console.log(error);
+                            // Alert.alert(error);
+                            });
+                        }
+                        })
+                        .catch((error) => {
+                        console.log('error', error);
+                        Alert.alert('API not available');
+                        });
+                }}>
+      Start Video Call
+      </Button>
+
+
       </Background>
 
 	  );

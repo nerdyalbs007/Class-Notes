@@ -12,6 +12,7 @@ MERGED from [:rn-fetch-blob] C:\Users\Admin\Desktop\BE-Project---React-Native-ma
 MERGED from [:react-native-screens] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-24:12
 MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\294f4994434fcc236f5b13df7d794a1b\AndroidManifest.xml:2:1-13:12
 MERGED from [:expo-permissions] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\4d2235652db6c49d4439406b8a39934e\AndroidManifest.xml:17:1-22:12
@@ -65,6 +66,7 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ad
 MERGED from [androidx.core:core:1.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\a8091e1734ef15c52f747034a38ccdba\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\3b387f75889bc10872e299f4fd14802d\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\96097a3a442c3626a8c94d4c933fec21\AndroidManifest.xml:17:1-22:12
+MERGED from [com.twilio:video-android:6.2.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-video-android-6.2.1.aar\0c0860db106f60351654dc4e820a7c15\AndroidManifest.xml:2:1-16:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\3683621b5557e430c65c1d49c7c8c25c\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\54a2f755033196295e429aef3e40c5c4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\8a7b09ddeed727dd710bb9ee6398fd06\AndroidManifest.xml:17:1-22:12
@@ -80,8 +82,10 @@ MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Admin\.gradle\caches\tr
 MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-1.10.0.aar\b1ec370c0b836290eb4af9a74123d3a7\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-base-1.10.0.aar\3bd58066d6301aa84e4f3153338d7163\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\377b12e40b14026c2c53fb267ec3e5ee\AndroidManifest.xml:2:1-13:12
+MERGED from [org.webrtc:google-webrtc:1.0.30039] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-google-webrtc-1.0.30039.aar\d8a01839e5d35665ce6c8dcabdc2ea09\AndroidManifest.xml:11:1-14:12
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\389c7252e84b4a58a451c4244732e373\AndroidManifest.xml:2:1-30:12
 MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-1.10.0.aar\477bc9b05206af94a201b535c5e8c7e7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\relinker-1.3.1.aar\887230804bb008e99851a093e4b4df40\AndroidManifest.xml:2:1-7:12
 INJECTED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml:1:1-50:12
 INJECTED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml:1:1-50:12
 INJECTED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml:1:1-50:12
@@ -103,8 +107,12 @@ uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml:4:5-67
 MERGED from [:rn-fetch-blob] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-67
 MERGED from [:rn-fetch-blob] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-67
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-67
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-67
 MERGED from [:expo-file-system] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
 MERGED from [:expo-file-system] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [com.twilio:video-android:6.2.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-video-android-6.2.1.aar\0c0860db106f60351654dc4e820a7c15\AndroidManifest.xml:9:5-67
+MERGED from [com.twilio:video-android:6.2.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-video-android-6.2.1.aar\0c0860db106f60351654dc4e820a7c15\AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
@@ -133,6 +141,10 @@ ADDED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src
 		ADDED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml:12:22-63
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
 ADDED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml:13:5-80
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-80
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-80
+MERGED from [com.twilio:video-android:6.2.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-video-android-6.2.1.aar\0c0860db106f60351654dc4e820a7c15\AndroidManifest.xml:10:5-80
+MERGED from [com.twilio:video-android:6.2.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-video-android-6.2.1.aar\0c0860db106f60351654dc4e820a7c15\AndroidManifest.xml:10:5-80
 	android:name
 		ADDED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml:13:22-77
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
@@ -153,6 +165,8 @@ MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Admin\.gradle\cach
 		ADDED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml:17:22-76
 uses-permission#android.permission.CAMERA
 ADDED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml:18:5-65
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-65
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-65
 	android:name
 		ADDED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml:18:22-62
 uses-permission#android.permission.READ_CONTACTS
@@ -177,6 +191,8 @@ uses-permission#android.permission.RECORD_AUDIO
 ADDED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml:23:5-71
 MERGED from [:react-native-audio-recorder-player] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-audio-recorder-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-71
 MERGED from [:react-native-audio-recorder-player] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-audio-recorder-player\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-71
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-71
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-71
 	android:name
 		ADDED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml:23:22-68
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
@@ -225,6 +241,8 @@ MERGED from [androidx.core:core:1.0.1] C:\Users\Admin\.gradle\caches\transforms-
 MERGED from [androidx.core:core:1.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\a8091e1734ef15c52f747034a38ccdba\AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\3b387f75889bc10872e299f4fd14802d\AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\3b387f75889bc10872e299f4fd14802d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.twilio:video-android:6.2.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-video-android-6.2.1.aar\0c0860db106f60351654dc4e820a7c15\AndroidManifest.xml:14:5-20
+MERGED from [com.twilio:video-android:6.2.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-video-android-6.2.1.aar\0c0860db106f60351654dc4e820a7c15\AndroidManifest.xml:14:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\377b12e40b14026c2c53fb267ec3e5ee\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\377b12e40b14026c2c53fb267ec3e5ee\AndroidManifest.xml:11:5-20
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\389c7252e84b4a58a451c4244732e373\AndroidManifest.xml:18:5-28:19
@@ -287,6 +305,8 @@ MERGED from [:react-native-reanimated] C:\Users\Admin\Desktop\BE-Project---React
 MERGED from [:react-native-reanimated] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\294f4994434fcc236f5b13df7d794a1b\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\294f4994434fcc236f5b13df7d794a1b\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-permissions] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
@@ -393,6 +413,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Ad
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\3b387f75889bc10872e299f4fd14802d\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\96097a3a442c3626a8c94d4c933fec21\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\96097a3a442c3626a8c94d4c933fec21\AndroidManifest.xml:20:5-44
+MERGED from [com.twilio:video-android:6.2.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-video-android-6.2.1.aar\0c0860db106f60351654dc4e820a7c15\AndroidManifest.xml:5:5-7:41
+MERGED from [com.twilio:video-android:6.2.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-video-android-6.2.1.aar\0c0860db106f60351654dc4e820a7c15\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\3683621b5557e430c65c1d49c7c8c25c\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\3683621b5557e430c65c1d49c7c8c25c\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\54a2f755033196295e429aef3e40c5c4\AndroidManifest.xml:20:5-44
@@ -423,10 +445,14 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Admin\.grad
 MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-base-1.10.0.aar\3bd58066d6301aa84e4f3153338d7163\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\377b12e40b14026c2c53fb267ec3e5ee\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\377b12e40b14026c2c53fb267ec3e5ee\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webrtc:google-webrtc:1.0.30039] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-google-webrtc-1.0.30039.aar\d8a01839e5d35665ce6c8dcabdc2ea09\AndroidManifest.xml:13:3-72
+MERGED from [org.webrtc:google-webrtc:1.0.30039] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-google-webrtc-1.0.30039.aar\d8a01839e5d35665ce6c8dcabdc2ea09\AndroidManifest.xml:13:3-72
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\389c7252e84b4a58a451c4244732e373\AndroidManifest.xml:8:5-10:41
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\389c7252e84b4a58a451c4244732e373\AndroidManifest.xml:8:5-10:41
 MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-1.10.0.aar\477bc9b05206af94a201b535c5e8c7e7\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-1.10.0.aar\477bc9b05206af94a201b535c5e8c7e7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\relinker-1.3.1.aar\887230804bb008e99851a093e4b4df40\AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\relinker-1.3.1.aar\887230804bb008e99851a093e4b4df40\AndroidManifest.xml:5:5-43
 INJECTED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Admin\Desktop\BE-Project---React-Native-main\android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -463,12 +489,20 @@ ADDED from [:rn-fetch-blob] C:\Users\Admin\Desktop\BE-Project---React-Native-mai
 		ADDED from [:rn-fetch-blob] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:rn-fetch-blob] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-79
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-79
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-79
+MERGED from [com.twilio:video-android:6.2.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-video-android-6.2.1.aar\0c0860db106f60351654dc4e820a7c15\AndroidManifest.xml:11:5-79
+MERGED from [com.twilio:video-android:6.2.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-video-android-6.2.1.aar\0c0860db106f60351654dc4e820a7c15\AndroidManifest.xml:11:5-79
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\389c7252e84b4a58a451c4244732e373\AndroidManifest.xml:13:5-79
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\389c7252e84b4a58a451c4244732e373\AndroidManifest.xml:13:5-79
 	android:name
 		ADDED from [:rn-fetch-blob] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [:rn-fetch-blob] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-76
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-76
+MERGED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:5-76
+MERGED from [com.twilio:video-android:6.2.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-video-android-6.2.1.aar\0c0860db106f60351654dc4e820a7c15\AndroidManifest.xml:12:5-76
+MERGED from [com.twilio:video-android:6.2.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\jetified-video-android-6.2.1.aar\0c0860db106f60351654dc4e820a7c15\AndroidManifest.xml:12:5-76
 	android:name
 		ADDED from [:rn-fetch-blob] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:22-73
 provider#com.RNFetchBlob.Utils.FileProvider
@@ -481,6 +515,20 @@ ADDED from [:rn-fetch-blob] C:\Users\Admin\Desktop\BE-Project---React-Native-mai
 		ADDED from [:rn-fetch-blob] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-37
 	android:name
 		ADDED from [:rn-fetch-blob] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-62
+uses-feature#android.hardware.camera
+ADDED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-60
+	android:name
+		ADDED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-70
+	android:name
+		ADDED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:19-67
+uses-feature#0x00020000
+ADDED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-15:35
+	android:glEsVersion
+		ADDED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-41
+	android:required
+		ADDED from [:react-native-twilio-video-webrtc] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\react-native-twilio-video-webrtc\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-32
 uses-permission#android.permission.STORAGE
 ADDED from [:expo-file-system] C:\Users\Admin\Desktop\BE-Project---React-Native-main\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-66
 	android:name

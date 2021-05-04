@@ -5,6 +5,13 @@
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
     <attr format="string" name="title"/>
+    <attr format="boolean" name="tviMirror"/>
+    <attr format="boolean" name="tviOverlaySurface"/>
+    <attr format="enum" name="tviScaleType">
+        <enum name="fit" value="0"/>
+        <enum name="fill" value="1"/>
+        <enum name="balanced" value="2"/>
+    </attr>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_allow_stacked_button_bar">false</bool>
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
@@ -3396,6 +3403,15 @@
         <!-- A color to apply to the subtitle string. -->
         <attr format="color" name="subtitleTextColor"/>
         <attr name="android:minHeight"/>
+    </declare-styleable>
+    <declare-styleable name="VideoTextureView">
+        <attr name="tviMirror"/>
+        <attr name="tviScaleType"/>
+    </declare-styleable>
+    <declare-styleable name="VideoView">
+        <attr name="tviMirror"/>
+        <attr name="tviScaleType"/>
+        <attr name="tviOverlaySurface"/>
     </declare-styleable>
     <declare-styleable name="View">
         <!-- Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}. -->

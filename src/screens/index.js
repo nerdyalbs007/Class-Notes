@@ -15,3 +15,6 @@ export { default as TeacherUpload } from './TeacherUpload';
 export { default as AllFilesHelper } from './AllFilesHelper';
 export { default as AwsScreen } from './AwsScreen';
 export { default as VideoCall } from './VideoCall';
+export { default as VideoCallRegister } from './VideoCallRegister';
+export { default as VideoCallStart } from './VideoCallStart';
+export { default as VideoCallTest } from './VideoCallTest';
