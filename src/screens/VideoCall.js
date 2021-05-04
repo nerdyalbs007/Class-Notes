@@ -15,7 +15,8 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  Alert,
 } from 'react-native';
 
 import AudioRecorderPlayer, {
@@ -89,6 +90,7 @@ const VideoCall = ({ navigation }) => {
 	  };
 
     onStartRecord = async () => {
+	Alert.alert("Started Recording");
     const path='sdcard/audio.mp3';
     global.audioRecorderPlayer = new AudioRecorderPlayer();
     const result = await audioRecorderPlayer.startRecorder(path);
@@ -100,6 +102,7 @@ const VideoCall = ({ navigation }) => {
   };
 
   onStopRecord = async () => {
+	Alert.alert("Stopped Recording");
     var result = await audioRecorderPlayer.stopRecorder();
     global.audioRecorderPlayer.removeRecordBackListener();
     const audioLocalUrl=result;

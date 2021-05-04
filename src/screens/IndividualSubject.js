@@ -31,12 +31,12 @@ const IndividualSubject = ({navigation }) => {
       All Documents
     </Button>
     
-    <Button mode="contained" onPress={() => navigation.navigate("AwsScreen",{
+    {/* <Button mode="contained" onPress={() => navigation.navigate("AwsScreen",{
       driveLink:driveLink,
     }
     )}>
       AWS Screen
-    </Button>
+    </Button> */}
 
   </Background>
 )};

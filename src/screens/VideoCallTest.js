@@ -41,10 +41,7 @@ const VideoCallTest = ({ navigation }) =>{
     setStatus('connecting');
   }, []);
 
-//     const _onConnectButtonPress = () => {
-//     twilioRef.current.connect({ accessToken: token });
-//     setStatus('connecting');
-//   }
+
   
   const _onEndButtonPress = () => {
     twilioRef.current.disconnect();

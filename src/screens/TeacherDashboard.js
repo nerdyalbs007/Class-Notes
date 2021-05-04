@@ -21,7 +21,7 @@ const Dashboard = ({ navigation }) => (
     <Button mode="contained" onPress={() => navigation.navigate("IndividualYear")}>
       Fourth Year
     </Button>
-    {/* <Button mode="contained">
+    <Button mode="contained">
       Third Year
     </Button>
     <Button mode="contained">
@@ -29,10 +29,10 @@ const Dashboard = ({ navigation }) => (
     </Button>
     <Button mode="contained">
       First Year
-    </Button> */}
+    </Button>
 
 
-    <Button mode="outlined" onPress={() => logoutUser()}>
+    <Button mode="outlined" onPress={() => navigation.navigate("HomeScreen")}>
       Logout
     </Button>
 
