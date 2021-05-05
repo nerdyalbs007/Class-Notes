@@ -46,10 +46,10 @@ const VideoCallRegister = ({ navigation }) =>{
         <ScrollView>
                         
             <View>
-                <TouchableOpacity
+                {/* <TouchableOpacity
                 disabled={false}
                 onPress={() => {
-                    fetch(`https://55c53f100486.ngrok.io/getToken?userName=MCC`)
+                    fetch(`https://ce55a10b2a04.ngrok.io/getToken?userName=MCC`)
                         .then((response) => {
                         if (response.ok) {
                             response.text().then((jwt) => {
@@ -72,7 +72,7 @@ const VideoCallRegister = ({ navigation }) =>{
                         });
                 }}>
                 <Text>Connect to Video Call</Text>
-                </TouchableOpacity>
+                </TouchableOpacity> */}
             </View>
         </ScrollView>
         </KeyboardAvoidingView>

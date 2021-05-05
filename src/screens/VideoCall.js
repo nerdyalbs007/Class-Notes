@@ -67,7 +67,7 @@ const VideoCall = ({ navigation }) => {
 				const extractedText = responseData['results']['transcripts'][0]['transcript'];
 				
 				// Send Extracted Text to Flask API
-				// fetch('http://c52a45f89263.ngrok.io', {
+				// fetch('http://c52a45f89263.ngrok.io/json-example', {
 				// method: 'POST',
 				// headers: {
 				//   Accept: 'application/json',
@@ -159,7 +159,7 @@ const VideoCall = ({ navigation }) => {
       </Button>
 
 	  <Button mode="contained" onPress={() => {
-                    fetch(`https://55c53f100486.ngrok.io/getToken?userName=MCC`)
+                    fetch(`https://b037c55d8ba3.ngrok.io/getToken?userName=Albin`)
                         .then((response) => {
                         if (response.ok) {
                             response.text().then((jwt) => {

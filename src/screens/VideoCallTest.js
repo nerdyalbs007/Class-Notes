@@ -37,7 +37,10 @@ const VideoCallTest = ({ navigation }) =>{
 
 //   const jwt = navigation.getParam('jwt');
   useEffect(() => {
-    twilioRef.current.connect({ accessToken: token });
+    twilioRef.current.connect({ 
+      accessToken: token,
+      roomName:"1234"
+       });
     setStatus('connecting');
   }, []);
 

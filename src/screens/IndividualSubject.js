@@ -20,7 +20,11 @@ const IndividualSubject = ({navigation }) => {
     {/* <Text>
       Subject Name : {JSON.stringify( subjectName )}
     </Text> */}
-    <Button mode="contained" >
+    <Button mode="contained" onPress={()=>{
+      navigation.navigate('VideoCallTest',{
+        jwt:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTS2M3NjQwMDc1OGE4NWZjOGYxNGIwY2M4NTlkZTRmZDc5LTE2MjAxOTA3MjQiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJKaW1teSIsInZpZGVvIjp7fX0sImlhdCI6MTYyMDE5MDcyNCwiZXhwIjoxNjIwMTk0MzI0LCJpc3MiOiJTS2M3NjQwMDc1OGE4NWZjOGYxNGIwY2M4NTlkZTRmZDc5Iiwic3ViIjoiQUNhYmQyMGEwZDQwN2ZhZTFmOTY1YmVmNWNlMGFmYmZhMCJ9.bAEl-NnruxUv3pSQeHp7UspQt6YS3vwDygZh388WtiY"
+    });
+    }}>
       Go To Live Lecture
     </Button>
     {/* <Button mode="contained" onPress={() => navigation.navigate("AllFilesHelper")}>
