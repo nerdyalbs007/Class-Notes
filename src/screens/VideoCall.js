@@ -67,18 +67,17 @@ const VideoCall = ({ navigation }) => {
 				const extractedText = responseData['results']['transcripts'][0]['transcript'];
 				
 				// Send Extracted Text to Flask API
-				// fetch('http://c52a45f89263.ngrok.io/json-example', {
-				// method: 'POST',
-				// headers: {
-				//   Accept: 'application/json',
-				//   'Content-Type': 'application/json'
-				// },
-				// body: JSON.stringify({
-				//   textString: extractedText,
-				//   driveLink: driveLink,
-				//   })
-				// })
-				// .then((response) => console.log(response));
+				fetch('https://982791c48995.ngrok.io/json-example', {
+				method: 'POST',
+				headers: {
+				  Accept: 'application/json',
+				  'Content-Type': 'application/json'
+				},
+				body: JSON.stringify({
+				  textString: extractedText
+				  })
+				})
+				.then((response) => console.log(response));
 
 				// console.log(extractedText,driveLink);
 				console.log("This is the complete Extracted Text",extractedText);
@@ -147,6 +146,7 @@ const VideoCall = ({ navigation }) => {
       })
   // console.log(result);
 };
+
 
     return (
       <Background>
